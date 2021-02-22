@@ -2,7 +2,7 @@
     background-image: url(../assets/background-png.jpg);
     background-repeat: no-repeat;
     background-size: 50%;
-    height: 1200px;
+    height: 800px;
     border-bottom: 10px solid black;
     background-position: right;
   
@@ -13,3 +13,9 @@
     flex-direction: column ;
     width: 640px;
 }
+
+.banner .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}   
