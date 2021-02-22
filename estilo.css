@@ -1,10 +1,10 @@
 .header-top{
     display: flex; /* para ocupar linha todda */
     justify-content: space-between;
-    background-color: #7C5E99;
+    background-color: #2D1FC3; 
     border-bottom: 10px solid black;
-    padding: 10px 20px;
-    
+    padding: 20px 30px;
+ 
 }
 
 nav {
@@ -22,6 +22,7 @@ a {
     margin-right: 30px;
 
 }
+
  /* pseudo elemento */
 a::before { 
     content: "" ; /* obrigatorio usar content pois estára criando um counteudo no css */
@@ -32,8 +33,6 @@ a::before {
 }
 
 
-
-
 a:hover{
     transform: scale(1.20);
     
@@ -42,8 +41,5 @@ a:hover{
 img:hover{
     transform: scale(1.40);
 }
-
-
-
 
 
