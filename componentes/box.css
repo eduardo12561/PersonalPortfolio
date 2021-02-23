@@ -4,6 +4,7 @@
     box-shadow: 10px 10px 0 black;
     text-align: center;  /* usar inherit no filho caso não funcionar */
     padding: 40px 44px;
+    margin-bottom: 25px;
 }
 
 #box h1 {
