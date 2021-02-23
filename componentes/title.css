@@ -5,3 +5,9 @@ h1{
     text-shadow: black;
     text-shadow: 5px 5px 0 black;
 }
+
+.title.-second{
+    color:white;
+    text-shadow:none;
+    text-align: center;
+}
