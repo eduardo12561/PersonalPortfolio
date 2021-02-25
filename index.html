@@ -11,11 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="componentes/section.css">
-    <link rel="stylesheet" href="componentes/title.css">
+    <link rel="stylesheet" href="componentes/main-title.css">
     <link rel="stylesheet" href="componentes/banner.css">
+    <link rel="stylesheet" href="componentes/skill-tec.css">
     <link rel="stylesheet" href="componentes/subtitle.css">
     <link rel="stylesheet" href="componentes/box.css">
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="componentes/progress-bar.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="componentes/button.css">
     <link rel="shortcut icon" href="assets/walter-white-icon.png" type="image/x-icon">
@@ -37,19 +39,29 @@
     <section class="banner">
         <div class="wrapper">
         <div id="box">
-            <h1 class=>Eduardo Breda</h1> 
-            <h2>FrontEnd Developer</h2>
+            <h1 class="main-tittle">Eduardo Breda</h1> 
+            <h2 class="subtitle">FrontEnd Developer</h2>
         </div>
-            <div class="navigation">
-                <a href="button" lang="en" class="button">Download CV</a>
-                <a href="button" class="button">Contatos</a>
-            </div>
+        <div class="navigation">
+             <a href="button" lang="en" class="button">Download CV</a>
+             <a href="button" class="button">Contatos</a>
+        </div>
         </div>
     </section> 
 
     <section class="section">
-        <h2 class="title -second">Skills</h2>
+        <h2 class="main-title -second">Skills</h2>
+            <article class="skill-tec"><!---Description list-->
+                <img class="icon" src="assets/ico_html5.png" alt="Logo html">
+                <div class="right">
+                     <h3 class="title">HTML</h3> <!--Description title-->
+                     <progress class="progress" min="0" max="100" value="30">
+                       30
+                     </progress>
+                </div>
+            </article>        
     </section>
 </body>
 </html>
+
 
